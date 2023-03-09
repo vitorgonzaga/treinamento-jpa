@@ -2,7 +2,6 @@ package br.com.alura.loja.modelo;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import java.time.LocalDate;
 
 @Entity
@@ -15,10 +14,16 @@ public class Produto {
     private String nome;
     private String descricao;
     private BigDecimal preco;
-    private LocalDate dataCadastro = LocalDate.now();
+    private final LocalDate dataCadastro = LocalDate.now();
 
-    @Enumerated(EnumType.STRING) // Ordinal is the default!
+
+    // When categoria was an enum, the annotation below is necessary to avoid default behavior.
+    // @Enumerated(EnumType.STRING) // Ordinal is the default behavior!
+    @ManyToOne
     private Categoria categoria;
+
+    public Produto() {
+    }
 
     public Produto(String nome, String descricao, BigDecimal preco, Categoria categoria) {
         this.nome = nome;
@@ -58,4 +63,5 @@ public class Produto {
     public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
+
 }
