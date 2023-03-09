@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e2b4d8-5911-424d-851c-4f52c548f2eb" name="Changes" comment=" add readme.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/dao/CategoriaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/lifecycle_Entity_JPA.png" afterDir="false" />
+    <list default="true" id="37e2b4d8-5911-424d-851c-4f52c548f2eb" name="Changes" comment=" refactor(Produto.java): removing &quot;@Enumarated(EnuType.STRING)&quot; annotation from categoria attribute, once it became a Model object.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/dao/ProdutoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Categoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/modelo/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/testes/CadastroDeProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +80,53 @@
       <option name="project" value="LOCAL" />
       <updated>1678211521684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" refactor(CadastroDeProduto.java): extracting initial code responsible to feed de database and calling new methods to displays some queries developed into ProdutoDao.">
+      <created>1678373384322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678373384322</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" refactor(Categoria.java): transforming the Enum to Model Object.">
+      <created>1678373498809</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678373498809</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" feat(CategoriaDao.java): create the object and its methods.">
+      <created>1678373558267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678373558267</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" docs: add readme and image file to displays draw about jpa entity lifecycle.">
+      <created>1678373646492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678373646492</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" build(persistence.xml): add hibernate property &quot;format_sql&quot;.">
+      <created>1678373710615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678373710615</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" JPA training:&#10; - settings in persistence.xml;&#10; - development of Produto, ProdutoDao and Categoria classes;&#10; - development of JPAUtil Class." />
     <MESSAGE value=" add readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add readme.md" />
+    <MESSAGE value=" refactor(CadastroDeProduto.java): extracting initial code responsible to feed de database and calling new methods to displays some queries developed into ProdutoDao." />
+    <MESSAGE value=" refactor(Categoria.java): transforming the Enum to Model Object." />
+    <MESSAGE value=" feat(CategoriaDao.java): create the object and its methods." />
+    <MESSAGE value=" docs: add readme and image file to displays draw about jpa entity lifecycle." />
+    <MESSAGE value=" build(persistence.xml): add hibernate property &quot;format_sql&quot;." />
+    <MESSAGE value=" refactor(Produto.java): removing &quot;@Enumarated(EnuType.STRING)&quot; annotation from categoria attribute, once it became a Model object." />
+    <option name="LAST_COMMIT_MESSAGE" value=" refactor(Produto.java): removing &quot;@Enumarated(EnuType.STRING)&quot; annotation from categoria attribute, once it became a Model object." />
   </component>
 </project>
