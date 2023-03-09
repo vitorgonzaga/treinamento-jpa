@@ -14,7 +14,8 @@
             
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" /> <!-- Just "MySQLDialect" doesn't work for me, was necessary add version 8 into string so, "MySQL8Dialect" -->
             <property name="hibernate.show_sql" value="true"/> <!-- to show logs sql in terminal -->
-            <property name="hibernate.hbm2ddl.auto" value="update" /> <!-- to create tables, databases automatically. Values = [create, create-drop, update, validate] -->
+            <property name="hibernate.format_sql" value="true"/> <!-- to break lines improving the display of queries -->
+            <property name="hibernate.hbm2ddl.auto" value="create-drop" /> <!-- to create tables, databases automatically. Values = [create, create-drop, update, validate] -->
         </properties>
     </persistence-unit>
 </persistence>
