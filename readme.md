@@ -37,7 +37,9 @@ used and how to set the persistence.xml file with JPA and Hibernate properties.
 - How to handle with LazyInitializationException using queries planned with the "JOIN FETCH" feature;
 - How to apply good practices in entities with relationships;
 - How to create queries with optional parameters using the CriteriaAPI from JPA;
--
+- How to use "@Embeddable" and "@Embedded" annotations;
+- How to work with inheritance between entities and its strategies as SINGLE_TABLE and JOINED;
+- How to map a compost-key with "@EmbeddedId";
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitorgonzaga/)
