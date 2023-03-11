@@ -19,7 +19,7 @@ public class Produto {
 
     // When categoria was an enum, the annotation below is necessary to avoid default behavior.
     // @Enumerated(EnumType.STRING) // Ordinal is the default behavior!
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Categoria categoria;
 
     public Produto() {
