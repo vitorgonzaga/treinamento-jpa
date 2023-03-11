@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e2b4d8-5911-424d-851c-4f52c548f2eb" name="Changes" comment=" refactor(readme): removing deployment section." />
+    <list default="true" id="37e2b4d8-5911-424d-851c-4f52c548f2eb" name="Changes" comment=" feat: add RelatorioDeVendasVo.java to use as DTO class into query called into CadastroDePedido.java for tests.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/loja/testes/PerformanceConsultas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +55,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.loja.testes" />
+      <recent name="br.com.alura.loja.dao" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -139,7 +147,63 @@
       <option name="project" value="LOCAL" />
       <updated>1678374539328</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" refactor(readme): updating image file.">
+      <created>1678374715294</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678374715294</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" refactor(persistence.xml): deactivated 'sql_mode'">
+      <created>1678542204168</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542204168</updated>
+    </task>
+    <task id="LOCAL-00014" summary=" refactor(JPAUtil.java): increase the initial feed database">
+      <created>1678542324162</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542324162</updated>
+    </task>
+    <task id="LOCAL-00015" summary=" refactor(CadastroDeProduto.java): moving executaCadastroInicial for JPAUtil file">
+      <created>1678542401975</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542401975</updated>
+    </task>
+    <task id="LOCAL-00016" summary=" refactor(Produto.java): setting relationship '@ManyToOne' as Lazy fetch.">
+      <created>1678542519295</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542519295</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" feat: add Cliente, Pedido and ItemPedido entities with its relationships settings">
+      <created>1678542595527</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542595527</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" feat: add ClienteDao and PedidoDao files.">
+      <created>1678542640431</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542640431</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" feat: add RelatorioDeVendasVo.java to use as DTO class into query called into CadastroDePedido.java for tests.">
+      <created>1678542712631</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542712631</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -154,7 +218,15 @@
     <MESSAGE value=" refactor(ProdutoDao.java): development of methods to execute queries in database." />
     <MESSAGE value=" add workspace.xml" />
     <MESSAGE value=" refactor(readme): removing deployment section." />
-    <option name="LAST_COMMIT_MESSAGE" value=" refactor(readme): removing deployment section." />
+    <MESSAGE value=" refactor(readme): updating image file." />
+    <MESSAGE value=" refactor(persistence.xml): deactivated 'sql_mode'" />
+    <MESSAGE value=" refactor(JPAUtil.java): increase the initial feed database" />
+    <MESSAGE value=" refactor(CadastroDeProduto.java): moving executaCadastroInicial for JPAUtil file" />
+    <MESSAGE value=" refactor(Produto.java): setting relationship '@ManyToOne' as Lazy fetch." />
+    <MESSAGE value=" feat: add Cliente, Pedido and ItemPedido entities with its relationships settings" />
+    <MESSAGE value=" feat: add ClienteDao and PedidoDao files." />
+    <MESSAGE value=" feat: add RelatorioDeVendasVo.java to use as DTO class into query called into CadastroDePedido.java for tests." />
+    <option name="LAST_COMMIT_MESSAGE" value=" feat: add RelatorioDeVendasVo.java to use as DTO class into query called into CadastroDePedido.java for tests." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
